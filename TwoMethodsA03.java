@@ -43,15 +43,24 @@ public class TwoMethodsA03 {
 		}
 
 		// INITIATE VARIABLES
-		float answer = 0;
+		double answer = 0.0;
 		String pattern = "";
 
 		// START CREATING THE PATTERN
-		for (int i = 1; i < a; i++) {
-			double num1 = (i + 1.0) / i;
-		}
- 
-		// RETURN PATTERN
+		for (int i = 1; i <= a; i++) {
+			// SETUP THE EQUATION AND DO MATH TO ADD TO THE PATTERN
+			double equation = (i + 1.0) / i;
+			answer += equation;
+
+			// APPEND OR CREATE PATTERN STRING
+            pattern += i + 1 + "/" + i;
+            if (i < a) {
+                pattern += " + ";
+            }
+        }
+
+		// FINALIZE PATTERN BEFORE RETURNING IT
+        pattern += " = " + String.format("%.5f", answer);
 		return pattern;
 	}
 
