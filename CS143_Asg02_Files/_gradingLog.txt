@@ -1,0 +1,26 @@
+
+----CustomerData Class TEST SETS -------------------------------------------------------
+
+Test Set 01: Test for no-argument constructor, and accessor methods             PASSED    
+Test Set 01: Test for constructor with parameters                               PASSED    
+Test Set 01: Test for deep copy of the ArrayList field                          PASSED    
+Test Set 01: Test for accessors                                                 PASSED    
+Test Set 01: Test for getTransactions() deep copy                               PASSED    
+Test Set 01: Test for all mutator methods                                       PASSED    
+Test Set 01: Test for deep copy of the ArrayList field when changed by mutator  PASSED    
+Test Set 02: addTransaction() method                                            PASSED    
+Test Set 02: addTransaction() exception                                         PASSED    
+Test Set 02: Test for equals() method                                           PASSED    
+Test Set 02: Test for clone() method                                            PASSED    
+Test Set 02: Test for clone() method with deep copy                             PASSED    
+
+----PersonData Class TEST SETS -------------------------------------------------------
+
+Test Set 01: Test for no-argument constructor, and accessor methods             PASSED    
+Test Set 01: Test for mutator methods                                           PASSED    
+Test Set 02: Test for constructor with parameters                               PASSED    
+Test Set 02: Test for equals() method                                           PASSED    
+Test Set 02: Test for clone() method                                            PASSED    
+
+----Circle Class TEST SETS -------------------------------------------------------
+
